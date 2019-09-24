@@ -318,8 +318,6 @@ export default [
       description:
         "Some standard double rooms are meant for a couple; these have just one queen- or king-sized bed. Other standard double rooms have two double or queen-sized beds placed side by side a few feet apart.",
       extras: [
-        "Plush pillows and breathable bed linens",",
-      extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
@@ -376,6 +374,7 @@ export default [
       featured: false,
       description:
         "For those traveling with friends and want to share a room.",
+      extras: [
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
         "Complimentary refreshments",
