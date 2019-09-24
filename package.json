@@ -12,8 +12,6 @@
     "styled-components": "^4.4.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:staging": "env-cmd -f .env.staging npm run build",
@@ -52,6 +50,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/evanszymkowicz/beach-house/issues"
-  },
-  "homepage": "https://evanszymkowicz.github.io/beach-house"
+  }
 }
