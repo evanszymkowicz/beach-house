@@ -1,19 +1,19 @@
-import room1 from "./images/details-1.jpeg";
-import room2 from "./images/details-2.jpeg";
-import room3 from "./images/details-3.jpeg";
-import room4 from "./images/details-4.jpeg";
-import img1 from "./images/room-1.jpeg";
-import img2 from "./images/room-2.jpeg";
-import img3 from "./images/room-3.jpeg";
-import img4 from "./images/room-4.jpeg";
-import img5 from "./images/room-5.jpeg";
-import img6 from "./images/room-6.jpeg";
-import img7 from "./images/room-7.jpeg";
-import img8 from "./images/room-8.jpeg";
-import img9 from "./images/room-9.jpeg";
-import img10 from "./images/room-10.jpeg";
-import img11 from "./images/room-11.jpeg";
-import img12 from "./images/room-12.jpeg";
+import details1 from "./images/details-1.jpeg";
+import details2 from "./images/details-2.jpeg";
+import details3 from "./images/details-3.jpeg";
+import details4 from "./images/details-4.jpeg";
+import room1 from "./images/room-1.jpeg";
+import room2 from "./images/room-2.jpeg";
+import room3 from "./images/room-3.jpeg";
+import room4 from "./images/room-4.jpeg";
+import room5 from "./images/room-5.jpeg";
+import room6 from "./images/room-6.jpeg";
+import room7 from "./images/room-7.jpeg";
+import room8 from "./images/room-8.jpeg";
+import room9 from "./images/room-9.jpeg";
+import room10 from "./images/room-10.jpeg";
+import room11 from "./images/room-11.jpeg";
+import room12 from "./images/room-12.jpeg";
 
 export default [
   {
@@ -45,7 +45,7 @@ export default [
         {
           fields: {
             file: {
-              url: img1
+              url: details1
             }
           }
         },
@@ -81,8 +81,8 @@ export default [
       name: "single basic",
       slug: "single-basic",
       type: "single",
-      price: 150,
-      size: 250,
+      price: 250,
+      size: 290,
       capacity: 1,
       pets: false,
       breakfast: false,
@@ -102,7 +102,7 @@ export default [
         {
           fields: {
             file: {
-              url: img2
+              url: details2
             }
           }
         },
@@ -159,7 +159,7 @@ export default [
         {
           fields: {
             file: {
-              url: img3
+              url: details3
             }
           }
         },
@@ -216,7 +216,7 @@ export default [
         {
           fields: {
             file: {
-              url: img4
+              url: details4
             }
           }
         },
@@ -259,7 +259,7 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Ideal for two people. Our single rooms overlook the street, and all have double glazing for extra effect.",
+        "Ideal for two people. Half the rooms overlook the street, and all have double glazing for extra effect. The other rooms will have a view of the lobby and atrium.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -273,7 +273,7 @@ export default [
         {
           fields: {
             file: {
-              url: img5
+              url: room5
             }
           }
         },
@@ -330,7 +330,7 @@ export default [
         {
           fields: {
             file: {
-              url: img6
+              url: details2
             }
           }
         },
@@ -386,7 +386,7 @@ export default [
         {
           fields: {
             file: {
-              url: img7
+              url: room7
             }
           }
         },
@@ -443,7 +443,7 @@ export default [
         {
           fields: {
             file: {
-              url: img8
+              url: room8
             }
           }
         },
@@ -500,7 +500,7 @@ export default [
         {
           fields: {
             file: {
-              url: img9
+              url: room9
             }
           }
         },
@@ -557,7 +557,7 @@ export default [
         {
           fields: {
             file: {
-              url: img10
+              url: room10
             }
           }
         },
@@ -614,7 +614,7 @@ export default [
         {
           fields: {
             file: {
-              url: img11
+              url: room11
             }
           }
         },
@@ -671,7 +671,7 @@ export default [
         {
           fields: {
             file: {
-              url: img12
+              url: room12
             }
           }
         },

@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "contentful": "^7.10.0",
-    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-icons": "^3.7.0",
@@ -14,7 +13,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:staging": "env-cmd -f .env.staging npm run build",
@@ -38,7 +37,9 @@
   },
   "description": "Bootstrapped with Create React App",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/evanszymkowicz/beach-house.git"
